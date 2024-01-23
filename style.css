@@ -1,3 +1,43 @@
 h1{
     background-color: blue;
 }
+
+.footer {
+    margin: 60px 0 51px;
+  }
+  
+  .footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+  
+  .footer__content-img {
+    transition: .8s;
+  }
+  
+  .footer__content-img:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .footer__content-title {
+    color: #000;
+    font-family: var(--RM500);
+    font-size: 25px;
+    cursor: default;
+  }
+  
+  .footer__content-li {
+    margin-top: 15px;
+  }
+  
+  .footer__content-link {
+    color: #000;
+    font-family: var(--RR400);
+    font-size: 20px;
+    transition: .3s;
+  }
+  
+  .footer__content-link:hover {
+    opacity: .7;
+  }
